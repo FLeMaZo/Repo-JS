@@ -1,0 +1,14 @@
+.maincontainer {
+  display: flex;
+}
+h1 {
+  text-align: center;
+}
+#btn {
+  display: flex;
+  margin-left: 680px;
+  margin-top: 50px;
+}
+#resultado {
+  text-align: center;
+}

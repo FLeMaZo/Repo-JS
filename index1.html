@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js</title>
+  </head>
+  <body>
+    <div>
+      <img
+        id="imagen"
+        onclick="
+            const imagen = document.querySelector ('#imagen');
+            if (imagen.style.border === ''){
+                imagen.style.border = '2px solid red';
+
+            }
+            else{
+                (imagen.style.border = '')
+            }
+            
+            "
+        src="./assets/img/weezer.jpeg"
+      />
+    </div>
+  </body>
+</html>
